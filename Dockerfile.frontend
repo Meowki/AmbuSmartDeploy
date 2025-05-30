@@ -1,0 +1,37 @@
+# --- 阶段 1: 构建前端应用 ---
+# 使用 Node.js 镜像作为构建环境
+FROM node:18-alpine AS builder
+
+# 设置工作目录，后续所有操作都在此目录下进行
+WORKDIR /app
+
+# 将前端项目的 package.json 和 package-lock.json (或 yarn.lock) 复制到工作目录
+# 这样可以利用 Docker 缓存，如果依赖没有变化，就不需要重新安装
+COPY ./AmbuSmart/frontend/package*.json ./
+
+# 安装前端依赖
+RUN npm install --force
+
+# 将整个前端项目代码复制到工作目录
+COPY ./AmbuSmart/frontend .
+
+# 运行前端构建命令，生成静态文件到 dist 目录
+RUN npm run build
+
+# --- 阶段 2: 部署 Nginx 服务 ---
+# 使用轻量级的 Nginx 镜像作为生产环境
+FROM nginx:stable-alpine
+
+# 将构建阶段生成的静态文件从 builder 阶段复制到 Nginx 的默认服务目录
+# /usr/share/nginx/html 是 Nginx 默认的静态文件存放路径
+COPY --from=builder /app/dist /usr/share/nginx/html
+
+# 复制您自定义的 Nginx 配置
+COPY ./AmbuSmart/frontend/nginx.conf /etc/nginx/conf.d/default.conf 
+
+
+# 暴露 80 端口，Nginx 默认监听此端口
+EXPOSE 80
+
+# 启动 Nginx 服务，并保持前台运行
+CMD ["nginx", "-g", "daemon off;"]

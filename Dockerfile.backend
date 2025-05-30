@@ -1,0 +1,20 @@
+# Dockerfile.backend
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# 拷贝整个后端应用代码目录 (包括 main.py 和 core 目录)
+COPY ./AmbuSmart/app /app/  
+
+# 拷贝 requirements.txt 和 .env 文件
+COPY ./AmbuSmart/requirements.txt /app/
+COPY ./AmbuSmart/.env /app/
+
+# 安装依赖
+RUN pip install --upgrade pip \
+    && pip install -r requirements.txt
+
+EXPOSE 8000
+
+# 启动命令：由于 main.py 和 core 现在都在 /app 下，所以导入路径正确
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

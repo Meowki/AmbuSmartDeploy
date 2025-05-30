@@ -1,0 +1,245 @@
+Date : 2025-05-21 22:54:58
+Directory : /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart
+Total : 161 files,  28317 codes, 820 comments, 1710 blanks, all 30847 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          6 |     15,998 |          0 |          6 |     16,004 |
+| vue                |         33 |      5,985 |        108 |        770 |      6,863 |
+| Python             |        103 |      2,740 |        365 |        713 |      3,818 |
+| MS SQL             |          2 |      2,572 |        264 |         84 |      2,920 |
+| JavaScript JSX     |          3 |        520 |         72 |         99 |        691 |
+| Markdown           |          2 |        225 |          0 |          8 |        233 |
+| JavaScript         |          7 |        144 |          8 |         21 |        173 |
+| pip requirements   |          1 |         86 |          0 |          1 |         87 |
+| JSON with Comments |          1 |         22 |          0 |          1 |         23 |
+| HTML               |          1 |         16 |          1 |          1 |         18 |
+| Properties         |          2 |          9 |          2 |          6 |         17 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                             | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                |        161 |     28,317 |        820 |      1,710 |     30,847 |
+| . (Files)                                                                                                        |          4 |        846 |          2 |          8 |        856 |
+| .ipynb_checkpoints                                                                                               |          3 |         17 |          0 |          5 |         22 |
+| app                                                                                                              |        105 |      5,393 |        629 |        795 |      6,817 |
+| app (Files)                                                                                                      |          2 |         64 |         17 |         21 |        102 |
+| app/api                                                                                                          |         20 |      1,063 |        137 |        232 |      1,432 |
+| app/api (Files)                                                                                                  |          6 |        587 |        113 |        119 |        819 |
+| app/api/ambulance                                                                                                |          3 |        142 |         10 |         37 |        189 |
+| app/api/check                                                                                                    |          2 |         65 |          5 |         17 |         87 |
+| app/api/medicine                                                                                                 |          2 |         64 |          0 |         17 |         81 |
+| app/api/patient                                                                                                  |          3 |         75 |          4 |         16 |         95 |
+| app/api/personnel                                                                                                |          2 |         76 |          1 |         14 |         91 |
+| app/api/record                                                                                                   |          2 |         54 |          4 |         12 |         70 |
+| app/core                                                                                                         |          3 |         18 |          9 |          8 |         35 |
+| app/crud                                                                                                         |         16 |        371 |         31 |        108 |        510 |
+| app/crud (Files)                                                                                                 |          9 |        242 |         31 |         56 |        329 |
+| app/crud/ambulance                                                                                               |          3 |         65 |          0 |         24 |         89 |
+| app/crud/check                                                                                                   |          2 |         32 |          0 |         14 |         46 |
+| app/crud/medicine                                                                                                |          2 |         32 |          0 |         14 |         46 |
+| app/db                                                                                                           |          3 |         10 |         31 |         11 |         52 |
+| app/models                                                                                                       |         20 |        285 |         20 |         68 |        373 |
+| app/models (Files)                                                                                               |         14 |        206 |         18 |         45 |        269 |
+| app/models/check                                                                                                 |          3 |         38 |          0 |         13 |         51 |
+| app/models/medicine                                                                                              |          3 |         41 |          2 |         10 |         53 |
+| app/schemas                                                                                                      |         18 |        345 |         12 |         95 |        452 |
+| app/schemas (Files)                                                                                              |          9 |        173 |         11 |         51 |        235 |
+| app/schemas/ambulance                                                                                            |          3 |         85 |          1 |         17 |        103 |
+| app/schemas/check                                                                                                |          3 |         42 |          0 |         12 |         54 |
+| app/schemas/medicine                                                                                             |          3 |         45 |          0 |         15 |         60 |
+| app/services                                                                                                     |         17 |        478 |        105 |        148 |        731 |
+| app/services (Files)                                                                                             |         10 |        366 |         95 |         97 |        558 |
+| app/services/ambulance                                                                                           |          3 |         64 |          8 |         29 |        101 |
+| app/services/check                                                                                               |          2 |         24 |          1 |         11 |         36 |
+| app/services/medicine                                                                                            |          2 |         24 |          1 |         11 |         36 |
+| app/tests                                                                                                        |          1 |          0 |          0 |          1 |          1 |
+| app/utils                                                                                                        |          5 |      2,759 |        267 |        103 |      3,129 |
+| frontend                                                                                                         |         49 |     22,061 |        189 |        902 |     23,152 |
+| frontend (Files)                                                                                                 |          7 |     15,440 |          0 |         14 |     15,454 |
+| frontend/public                                                                                                  |          1 |         16 |          1 |          1 |         18 |
+| frontend/src                                                                                                     |         41 |      6,605 |        188 |        887 |      7,680 |
+| frontend/src (Files)                                                                                             |          2 |         41 |          2 |          8 |         51 |
+| frontend/src/components                                                                                          |         24 |      4,528 |        146 |        653 |      5,327 |
+| frontend/src/components (Files)                                                                                  |          3 |        521 |         48 |         98 |        667 |
+| frontend/src/components/CoreButtoms                                                                              |          8 |      1,976 |         41 |        283 |      2,300 |
+| frontend/src/components/ScoreValueForm                                                                           |          4 |        778 |         28 |         79 |        885 |
+| frontend/src/components/Stat                                                                                     |          5 |        784 |          5 |        108 |        897 |
+| frontend/src/components/utils                                                                                    |          4 |        469 |         24 |         85 |        578 |
+| frontend/src/router                                                                                              |          1 |         55 |          6 |          5 |         66 |
+| frontend/src/services                                                                                            |          2 |         19 |          0 |          7 |         26 |
+| frontend/src/store                                                                                               |          1 |         15 |          0 |          2 |         17 |
+| frontend/src/views                                                                                               |         11 |      1,947 |         34 |        212 |      2,193 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                         | language           | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/.env                                                          | Properties         |          6 |          2 |          4 |         12 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/.ipynb_checkpoints/Untitled-checkpoint.ipynb                  | JSON               |          6 |          0 |          1 |          7 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/.ipynb_checkpoints/huggingface-checkpoint.ipynb               | JSON               |          6 |          0 |          1 |          7 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/.ipynb_checkpoints/main-checkpoint.py                         | Python             |          5 |          0 |          3 |          8 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/README.md                                                     | Markdown           |        206 |          0 |          2 |        208 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/Untitled.ipynb                                                | JSON               |        439 |          0 |          1 |        440 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/__init__.py                                               | Python             |          0 |          0 |          1 |          1 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/__init__.py                                           | Python             |          0 |          2 |          2 |          4 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/ambulance/ambulance_routers.py                        | Python             |         35 |          3 |         10 |         48 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/ambulance/basic_check_routers.py                      | Python             |         47 |          3 |         12 |         62 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/ambulance/operation_histories_routers.py              | Python             |         60 |          4 |         15 |         79 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/audio_router.py                                       | Python             |        179 |          8 |         32 |        219 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/chat.py                                               | Python             |          0 |         17 |          4 |         21 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/chat_router.py                                        | Python             |        255 |         15 |         29 |        299 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/check/check_histories_routers.py                      | Python             |         29 |          0 |          7 |         36 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/check/check_routers.py                                | Python             |         36 |          5 |         10 |         51 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/knowledgeGraph.py                                     | Python             |        153 |         12 |         41 |        206 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/medicine/medicine_histories_routers.py                | Python             |         29 |          0 |          7 |         36 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/medicine/medicine_routers.py                          | Python             |         35 |          0 |         10 |         45 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/patient/allergy_routers.py                            | Python             |         23 |          2 |          5 |         30 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/patient/medical_history_routers.py                    | Python             |         23 |          2 |          5 |         30 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/patient/patient_routers.py                            | Python             |         29 |          0 |          6 |         35 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/personnel/department_routers.py                       | Python             |         29 |          0 |          6 |         35 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/personnel/health_personnel_router.py                  | Python             |         47 |          1 |          8 |         56 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/record/case_history_routers.py                        | Python             |         27 |          2 |          6 |         35 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/record/medical_record_routers.py                      | Python             |         27 |          2 |          6 |         35 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/api/users.py                                              | Python             |          0 |         59 |         11 |         70 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/core/__init__.py                                          | Python             |          0 |          0 |          1 |          1 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/core/config.py                                            | Python             |          6 |          9 |          6 |         21 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/core/logger.py                                            | Python             |         12 |          0 |          1 |         13 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/__init__.py                                          | Python             |          0 |          0 |          1 |          1 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/ambulance/basic_check.py                             | Python             |         17 |          0 |          7 |         24 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/ambulance/crud_ambulance.py                          | Python             |         17 |          0 |          7 |         24 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/ambulance/crud_operation_history.py                  | Python             |         31 |          0 |         10 |         41 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/case_history.py                                      | Python             |         17 |          0 |          5 |         22 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/chat.py                                              | Python             |        121 |         13 |         16 |        150 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/check/check_crud.py                                  | Python             |         17 |          0 |          8 |         25 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/check/check_histories_crud.py                        | Python             |         15 |          0 |          6 |         21 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/crud_allergy.py                                      | Python             |         13 |          2 |          4 |         19 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/crud_department.py                                   | Python             |         15 |          2 |          5 |         22 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/crud_patient.py                                      | Python             |         15 |          2 |          5 |         22 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/health_personnel.py                                  | Python             |         22 |          2 |          8 |         32 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/medical_history.py                                   | Python             |         22 |          9 |          6 |         37 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/medical_record.py                                    | Python             |         17 |          1 |          6 |         24 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/medicine/medicine_crud.py                            | Python             |         17 |          0 |          8 |         25 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/crud/medicine/medicine_histories_crud.py                  | Python             |         15 |          0 |          6 |         21 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/db/__init__.py                                            | Python             |          0 |          0 |          1 |          1 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/db/base.py                                                | Python             |          2 |          3 |          1 |          6 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/db/session.py                                             | Python             |          8 |         28 |          9 |         45 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/main.py                                                   | Python             |         64 |         17 |         20 |        101 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/__init__.py                                        | Python             |          0 |          0 |          1 |          1 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/allergy.py                                         | Python             |         11 |          1 |          3 |         15 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/ambulance.py                                       | Python             |         14 |          4 |          6 |         24 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/basic_check.py                                     | Python             |         16 |          4 |          3 |         23 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/case_history.py                                    | Python             |         20 |          1 |          3 |         24 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/chat.py                                            | Python             |         11 |          0 |          4 |         15 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/check/check.py                                     | Python             |         11 |          0 |          5 |         16 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/check/check_histories.py                           | Python             |         14 |          0 |          3 |         17 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/check/check_relationship.py                        | Python             |         13 |          0 |          5 |         18 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/department.py                                      | Python             |         11 |          1 |          4 |         16 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/health_personnel.py                                | Python             |         15 |          1 |          4 |         20 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/medical_history.py                                 | Python             |         11 |          0 |          3 |         14 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/medical_record.py                                  | Python             |         30 |          1 |          3 |         34 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/medicine/medicine.py                               | Python             |         14 |          0 |          3 |         17 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/medicine/medicine_histories.py                     | Python             |         14 |          0 |          3 |         17 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/medicine/medicine_relationship.py                  | Python             |         13 |          2 |          4 |         19 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/message.py                                         | Python             |          3 |          0 |          2 |          5 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/operation_history.py                               | Python             |         39 |          3 |          3 |         45 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/patient.py                                         | Python             |         17 |          2 |          3 |         22 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/models/users.py                                           | Python             |          8 |          0 |          3 |         11 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/__init__.py                                       | Python             |          0 |          0 |          1 |          1 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/allergy.py                                        | Python             |         13 |          0 |          5 |         18 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/ambulance/ambulance.py                            | Python             |         16 |          0 |          5 |         21 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/ambulance/basic_check.py                          | Python             |         19 |          1 |          5 |         25 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/ambulance/operation_history.py                    | Python             |         50 |          0 |          7 |         57 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/case_history.py                                   | Python             |         31 |          1 |          8 |         40 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/chat.py                                           | Python             |         17 |          0 |          5 |         22 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/check/check.py                                    | Python             |         14 |          0 |          4 |         18 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/check/check_histories.py                          | Python             |         17 |          0 |          4 |         21 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/check/check_relationship.py                       | Python             |         11 |          0 |          4 |         15 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/department.py                                     | Python             |         13 |          0 |          5 |         18 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/health_personnel.py                               | Python             |         17 |          2 |          6 |         25 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/medical_history.py                                | Python             |         14 |          0 |          4 |         18 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/medical_record.py                                 | Python             |         41 |          2 |          8 |         51 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/medicine/medicine.py                              | Python             |         17 |          0 |          6 |         23 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/medicine/medicine_histories.py                    | Python             |         17 |          0 |          5 |         22 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/medicine/medicine_relationship.py                 | Python             |         11 |          0 |          4 |         15 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/schemas/patient.py                                        | Python             |         27 |          6 |          9 |         42 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/__init__.py                                      | Python             |          0 |          0 |          1 |          1 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/allergy_service.py                               | Python             |          9 |          2 |          4 |         15 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/ambulance/ambulance.py                           | Python             |         13 |          1 |          6 |         20 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/ambulance/basic_check.py                         | Python             |         13 |          1 |          6 |         20 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/ambulance/operation_histories_sevice.py          | Python             |         38 |          6 |         17 |         61 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/case_history_service.py                          | Python             |         53 |          4 |         12 |         69 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/chat_service.py                                  | Python             |        203 |         31 |         40 |        274 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/check/check_histories_service.py                 | Python             |         11 |          0 |          5 |         16 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/check/check_service.py                           | Python             |         13 |          1 |          6 |         20 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/department_service.py                            | Python             |         11 |          2 |          5 |         18 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/gpt_service.py                                   | Python             |          0 |         42 |          8 |         50 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/health_personnel.py                              | Python             |         17 |          2 |          8 |         27 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/medical_history_service.py                       | Python             |          9 |          2 |          4 |         15 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/medical_record_service.py                        | Python             |         53 |          8 |         10 |         71 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/medicine/medicine_histories_service.py           | Python             |         11 |          0 |          5 |         16 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/medicine/medicine_service.py                     | Python             |         13 |          1 |          6 |         20 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/services/patient_service.py                               | Python             |         11 |          2 |          5 |         18 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/tests/__init__.py                                         | Python             |          0 |          0 |          1 |          1 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/utils/__init__.py                                         | Python             |          0 |          0 |          1 |          1 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/utils/database_backup0325.sql                             | MS SQL             |      1,240 |        129 |         41 |      1,410 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/utils/database_backup0330.sql                             | MS SQL             |      1,332 |        135 |         43 |      1,510 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/utils/prompts.py                                          | Python             |        101 |          3 |         17 |        121 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/app/utils/requirements.txt                                    | pip requirements   |         86 |          0 |          1 |         87 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/.env                                                 | Properties         |          3 |          0 |          2 |          5 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/README.md                                            | Markdown           |         19 |          0 |          6 |         25 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/babel.config.js                                      | JavaScript         |         12 |          0 |          1 |         13 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/jsconfig.json                                        | JSON with Comments |         22 |          0 |          1 |         23 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/package-lock.json                                    | JSON               |     15,276 |          0 |          1 |     15,277 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/package.json                                         | JSON               |         76 |          0 |          1 |         77 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/public/index.html                                    | HTML               |         16 |          1 |          1 |         18 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/App.vue                                          | vue                |         30 |          0 |          4 |         34 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/CoreButtoms/KeywordsGraph.vue         | vue                |        236 |          0 |         42 |        278 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/CoreButtoms/PatientInfo.vue           | vue                |        543 |         13 |         56 |        612 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/CoreButtoms/basicCheckDialogue.vue    | vue                |        272 |          1 |         25 |        298 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/CoreButtoms/caseHistoryTable.vue      | vue                |        121 |          5 |         28 |        154 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/CoreButtoms/medicalRecordTable.vue    | vue                |        152 |          5 |         30 |        187 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/CoreButtoms/operationHistoryTable.vue | vue                |        440 |         11 |         70 |        521 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/CoreButtoms/scoreTableDialogue.vue    | vue                |         64 |          6 |         14 |         84 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/CoreButtoms/timeLineButtom.vue        | vue                |        148 |          0 |         18 |        166 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/Independent.jsx                       | JavaScript JSX     |        384 |         46 |         68 |        498 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/MyReactComponent.jsx                  | JavaScript JSX     |         12 |          2 |          4 |         18 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/NavigationBars.vue                    | vue                |        125 |          0 |         26 |        151 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/ScoreValueForm/CerebralStroke.vue     | vue                |         83 |          0 |         10 |         93 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/ScoreValueForm/GcsScore.vue           | vue                |        238 |         10 |         27 |        275 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/ScoreValueForm/KillipScore.vue        | vue                |        204 |          5 |         18 |        227 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/ScoreValueForm/TiScore.vue            | vue                |        253 |         13 |         24 |        290 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/Stat/ChatWordCloud.vue                | vue                |        135 |          0 |         16 |        151 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/Stat/ConsistencyAnalysis.vue          | vue                |        122 |          0 |         13 |        135 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/Stat/FormSection.vue                  | vue                |        319 |          5 |         51 |        375 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/Stat/SmartAdvice.vue                  | vue                |        129 |          0 |         17 |        146 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/Stat/WordCloudChart.vue               | vue                |         79 |          0 |         11 |         90 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/utils/ExitComponent.vue               | vue                |         41 |          0 |         10 |         51 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/utils/KnowledgeGraph.vue              | vue                |        263 |          0 |         45 |        308 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/utils/mapComponent.vue                | vue                |         41 |          0 |          3 |         44 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/components/utils/withAliyunASR.jsx               | JavaScript JSX     |        124 |         24 |         27 |        175 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/main.js                                          | JavaScript         |         11 |          2 |          4 |         17 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/router/index.js                                  | JavaScript         |         55 |          6 |          5 |         66 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/services/api.js                                  | JavaScript         |          5 |          0 |          3 |          8 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/services/userService.js                          | JavaScript         |         14 |          0 |          4 |         18 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/store/index.js                                   | JavaScript         |         15 |          0 |          2 |         17 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/views/AmbuCore.vue                               | vue                |        104 |          3 |         27 |        134 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/views/AmbuFin.vue                                | vue                |        210 |          0 |         29 |        239 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/views/AmbuMenu.vue                               | vue                |        231 |          0 |         12 |        243 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/views/AmbuPatientInfo.vue                        | vue                |        407 |         13 |         37 |        457 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/views/AmbuStart.vue                              | vue                |        410 |          9 |         35 |        454 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/views/AmbuStat.vue                               | vue                |         77 |          4 |         14 |         95 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/views/Chat.vue                                   | vue                |        179 |          0 |         26 |        205 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/views/HelloWorld.vue                             | vue                |         55 |          1 |          3 |         59 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/views/HomePage.vue                               | vue                |         30 |          0 |          5 |         35 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/views/UserManagement.vue                         | vue                |         72 |          0 |          3 |         75 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/src/views/test.vue                                   | vue                |        172 |          4 |         21 |        197 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/frontend/vue.config.js                                        | JavaScript         |         32 |          0 |          2 |         34 |
+| /Users/chenle/Documents/Python/AmbuSmart/AmbuSmart/huggingface.ipynb                                             | JSON               |        195 |          0 |          1 |        196 |
+| Total                                                                                                            |                    |     28,317 |        820 |      1,710 |     30,847 |
++------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
